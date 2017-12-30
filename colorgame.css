@@ -1,0 +1,65 @@
+body{
+	background-color: #232323;
+	margin: 0; /*To remove default margin*/
+	font-family: "Montserrat", "Avenir";
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;	
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s; /*For Safari*/
+	-moz-transition: background 0.6s;	/*For Mozilla*/
+}
+#container{
+	max-width: 500px;
+	margin: 20px auto; /* To center the squares*/
+}
+h1{
+	text-align: center;
+	background-color: steelblue;
+	color: white;
+	font-weight: normal;
+	margin: 0; /* To remove the default margin*/
+	line-height: 1.1;/* Used to reduce the distance between the lines*/
+	padding: 20px 0;/*To make sure that we have same space from top and bottom for the heading*/
+	text-transform: uppercase;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+.selected{
+	color: white;
+	background-color: steelblue;	
+}
+#colorDisplay{
+	font-size: 200%; /*200% of the h1 font-size*/
+}
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;/*100% of the containing div*/
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s; /*Used to make hover animation where first argument is what you want to transition and second is time in seconds*/
+	-webkit-transition: all 0.5s;
+	outline:none;
+	-moz-transition: all 0.5s;
+}
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
